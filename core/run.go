@@ -21,7 +21,7 @@ func PrepareRuntimeContext(cxt *quickjs.Context, jsruntime quickjs.Runtime, args
 
 	// Prepare runtime context with namespace and client op code
 	// The snapshot is generated at bootstrap process
-	snap, _ := Asset("target/elsa.js")
+	snap, _ := ``//Asset("target/elsa.js")
 	k, err := cxt.Eval(string(snap))
 	util.Check(err)
 	defer k.Free()
