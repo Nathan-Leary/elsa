@@ -1,12 +1,12 @@
 package main
 
 import (
-	"github.com/elsaland/elsa/dev"
+	"github.com/Nathan-Leary/elsa/dev"
 	"runtime"
 
-	"github.com/elsaland/elsa/bundler"
-	"github.com/elsaland/elsa/cmd"
-	"github.com/elsaland/elsa/core"
+	"github.com/Nathan-Leary/elsa/bundler"
+	"github.com/Nathan-Leary/elsa/cmd"
+	"github.com/Nathan-Leary/elsa/core"
 )
 
 func main() {
